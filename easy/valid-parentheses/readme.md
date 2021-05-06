@@ -9,34 +9,34 @@ An input string is valid if:
 
  
 
-Example 1:
-
+##### Example 1:
+````
 Input: s = "()"
 Output: true
-
-Example 2:
-
+````
+##### Example 2:
+````
 Input: s = "()[]{}"
 Output: true
-
-Example 3:
-
+````
+##### Example 3:
+````
 Input: s = "(]"
 Output: false
-
-Example 4:
-
+````
+##### Example 4:
+````
 Input: s = "([)]"
 Output: false
-
-Example 5:
-
+````
+##### Example 5:
+````
 Input: s = "{[]}"
 Output: true
-
+````
  
 
-Constraints:
+##### Constraints:
 
     1 <= s.length <= 104
     s consists of parentheses only '()[]{}'.
