@@ -8,9 +8,7 @@ However, sometimes, you can't arrange them into a square. Instead, you end up wi
 
 Given an integral number, determine if it's a square number:
 
-    In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself.
-
-    The tests will always use some integral number, so don't worry about that in dynamic typed languages.
+  In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself. The tests will always use some integral number, so don't worry about that in dynamic typed languages.
 #### Examples
 
  	-1  =>  false
