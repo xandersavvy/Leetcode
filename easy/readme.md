@@ -1,0 +1,1 @@
+# LeetCode easy solution
