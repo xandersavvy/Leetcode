@@ -1,2 +1,3 @@
 # Problem Solving
-It will be highly appreciated if you commit solutions in different approaches and different languages. Thank you.
+- - - -
+This Repository is created for gathering information for problem solving 
