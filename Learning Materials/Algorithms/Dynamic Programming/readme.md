@@ -3,6 +3,7 @@
 In Dynamic Programming we store all the result that has already been got . So, we don't have to recalculate  it.
 #### USE CASES :
 ``` primarily recursion where we have more than one recursive call and/or we have to find  optimal result , we use Dynamic Programming There. ```
+
 There is two type of Dynamic Programming 
  - Memoization / Top Down Approach
  - Tabulation / Bottom Up Approach
