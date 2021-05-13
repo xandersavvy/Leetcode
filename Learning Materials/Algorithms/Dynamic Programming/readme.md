@@ -18,4 +18,6 @@ There is two type of Dynamic Programming
   Tabulationn uses Matrix alike structure where it fills the position with the base cases and from 0 to N going on for fillling position.
   It also store the resullt once found so that it doesn't have to find more than once . That's why it is called Bottom Up approach .
  
+### Video Material(For Hindi Speakers)
+ - [Aditya Verma](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go)
 
