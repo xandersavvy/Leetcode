@@ -10,3 +10,4 @@ public:
         else return (lower_bound(nums.begin(), nums.end(), target) - nums.begin());
     }
 };
+//took help from leetcode as I was too exhausted and sleepy after a hectic unpaid intenship
