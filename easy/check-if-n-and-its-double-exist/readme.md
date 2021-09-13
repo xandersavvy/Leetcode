@@ -33,5 +33,34 @@ Explanation: In this case does not exist N and M, such that N = 2 * M.
     2 <= arr.length <= 500
     -10^3 <= arr[i] <= 10^3
 
+#
+### Solution
 
+```cpp
+//normal loop
+class Solution {
+public:
+    bool checkIfExist(vector<int>& arr) {
+        for(int i=0;i<arr.size();i++){
+                for(int j=i+1;j<arr.size();j++){
+                   if((arr[j]*2==arr[i])||(arr[i]*2==arr[j])) return true;
+            }
+        }
+        return false;
+    }
+};
+// or
+class Solution {
+public:
+    bool checkIfExist(vector<int>& arr) {
+        sort(arr.begin(), arr.end());
+        for(int i=0;i<arr.size();i++){
+            if(binary_search(arr.begin(),arr.begin()+i,arr[i]*2)) return true;
+            else if(binary_search(arr.begin()+i+1,arr.end(),arr[i]*2)) return true;
+        }
+        return false;
+    }
+};
+
+```
 

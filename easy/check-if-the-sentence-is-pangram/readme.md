@@ -23,3 +23,15 @@ Output: false
     1 <= sentence.length <= 1000
     sentence consists of lowercase English letters.
 ````
+
+#
+### Solution
+```cpp
+class Solution {
+public:
+    bool checkIfPangram(string sentence) {
+        set<char> s(sentence.begin(), sentence.end());
+        return s.size()==26;
+    }
+};
+```
