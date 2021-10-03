@@ -42,7 +42,6 @@ Print n lines. The i-th line should contain the result of replacing of the i-th 
 
 ```cpp
 #include<iostream>
-#include<cstring>
 
 using namespace std;
 
