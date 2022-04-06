@@ -43,3 +43,16 @@ Output: "chopper is not a tanuki"
     The words in s are separated by a single space.
     There are no leading or trailing spaces.
 
+# Solutions
+
+```cpp
+class Solution {
+public:
+    string truncateSentence(string s, int k) {
+        for (int i = 0; i < s.size(); i++) 
+            if (s[i] == ' ' && --k == 0) return s.substr(0, i);
+        return s;
+    }
+};
+
+```

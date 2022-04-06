@@ -17,3 +17,16 @@ Output: "here"
 Input: "LOVELY"
 Output: "lovely"
 ````
+# Soluton
+
+```cpp
+class Solution {
+public:
+    string toLowerCase(string s) {
+        int len = s.size();
+        for(int i=0;i<len;i++) 
+            if((s[i]-'A'>=0) && (s[i]-'Z'<1)) s[i]+=32;
+        return s;
+    }
+};
+```
