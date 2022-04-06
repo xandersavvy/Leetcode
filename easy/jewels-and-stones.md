@@ -21,3 +21,17 @@ Output: 0
 jewels and stones consist of only English letters.
 All the characters of jewels are unique.
 ```
+# SOlutions
+
+```cpp
+class Solution {
+public:
+    int numJewelsInStones(string jewels, string stones) {
+        int count=0;
+        for(auto i:jewels)
+            for(auto j:stones)
+                if(i==j) count++;
+        return count;
+    }
+};
+```

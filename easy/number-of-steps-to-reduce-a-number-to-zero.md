@@ -31,3 +31,20 @@ Output: 12
 ```
 0 <= num <= 10^6
 ```
+# Solutions
+
+
+```cpp
+class Solution {
+public:
+    int numberOfSteps (int num) {
+        int count=0;
+        if(num==0) return 0;
+        while(num>1){
+            count+=(num%2)?2:1;
+            num=num/2;
+        }
+        return (num==1)?++count:0;
+    }
+};
+```

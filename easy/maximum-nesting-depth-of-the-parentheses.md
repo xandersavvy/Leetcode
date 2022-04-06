@@ -40,3 +40,22 @@ Output: 0
 s consists of digits 0-9 and characters '+', '-', '*', '/', '(', and ')'.
 It is guaranteed that parentheses expression s is a VPS.
 ```
+
+# SOlutions
+
+```cpp
+class Solution {
+public:
+    int maxDepth(string s) {
+        int count=0,max=0;
+        for (char i:s){
+            if(i=='(') count++;
+            else if(i==')') count--;
+            
+            if(count>max) max=count;
+        }
+        return max;
+    }
+};
+
+```

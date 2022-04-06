@@ -32,3 +32,16 @@ Output: [true,false,true]
 1 <= candies[i] <= 100
 1 <= extraCandies <= 50
 ```
+# SOlutions
+
+```cpp
+class Solution {
+public:
+    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
+        vector<bool> po;
+        int max = *max_element(candies.begin(),candies.end());
+        for(int i : candies) po.push_back((i+extraCandies)>=max);
+        return po;
+    }
+};
+```

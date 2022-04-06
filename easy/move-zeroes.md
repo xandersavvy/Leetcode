@@ -19,3 +19,22 @@ Output: [0]
 
  
 Follow up: Could you minimize the total number of operations done?
+
+# Solutions
+
+```cpp
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        int n = nums.size();
+        int i = 0;
+        for (int j=0;j < n;j++) {
+            if (nums[j]) {
+                swap(nums[i], nums[j]);
+                i++;
+            }
+        }
+    }
+};
+
+```
