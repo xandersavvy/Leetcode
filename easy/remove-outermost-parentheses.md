@@ -34,3 +34,20 @@ Explanation:  The input string is "()()", with primitive decomposition "()" + "(
     S.length <= 10000
     S[i] is "(" or ")"
     S is a valid parentheses string
+
+# Solutions
+
+```cpp
+class Solution {
+public:
+    string removeOuterParentheses(string S) {
+        int count = 0;
+        string str;
+        for (char c : S) 
+            if (c == '(' && count++)  str += '(';
+            else if (c == ')' && --count) str += ')';
+        return str;
+    }
+};
+
+```

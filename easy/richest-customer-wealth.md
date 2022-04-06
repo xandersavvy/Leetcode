@@ -28,3 +28,21 @@ The 2nd customer is the richest with a wealth of 10.
 Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
 Output: 17
 ```
+# Solutions
+
+```cpp
+class Solution {
+public:
+    int maximumWealth(vector<vector<int>>& accounts) {
+        int max=0;
+        int len=accounts.size();
+        for(int i=0;i<len;i++){
+            int sum = accumulate(accounts[i].begin(), accounts[i].end(), 0) ;  
+            if(sum>max)
+                max=sum;
+        }
+        return max;
+    }
+};
+
+```

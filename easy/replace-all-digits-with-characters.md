@@ -37,3 +37,15 @@ Explanation: The digits are replaced as follows:
     s consists only of lowercase English letters and digits.
     shift(s[i-1], s[i]) <= 'z' for all odd indices i.
 
+# Solutions
+
+```cpp
+class Solution {
+public:
+    string replaceDigits(string s) {
+       for(int i=1;i<s.size();i+=2) s[i]=s[i-1]+(s[i]-'0'); 
+        return s;
+    }
+};
+
+```

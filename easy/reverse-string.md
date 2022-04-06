@@ -21,3 +21,15 @@ Output: ["h","a","n","n","a","H"]
  
 
 Follow up: Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
+
+# Soltuions 
+
+```cpp
+class Solution {
+public:
+    void reverseString(vector<char>& s) {
+        return reverse(s.begin(),s.end()); //In interview please use two pointer solutions
+    }
+};
+ 
+```

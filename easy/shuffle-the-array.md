@@ -24,3 +24,20 @@ Output: [1,2,1,2]
 nums.length == 2n
 1 <= nums[i] <= 10^3
 ```
+
+# Solutions 
+
+```cpp
+class Solution {
+public:
+    vector<int> shuffle(vector<int>& nums, int n) {
+        vector<int> shu ={};
+        for(int i=0;i<n;i++){
+            shu.push_back(nums[i]);
+            shu.push_back(nums[i+n]);
+        }
+        return shu;
+    }
+};
+
+```

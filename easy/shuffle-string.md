@@ -41,3 +41,21 @@ s contains only lower-case English letters.
 0 <= indices[i] < n
 All values of indices are unique (i.e. indices is a permutation of the integers from 0 to n - 1).
 ````
+
+# Solutions
+
+```cpp
+class Solution {
+public:
+    string restoreString(string s, vector<int>& indices) {
+        string rest ="";
+        int len=s.size();
+        rest.resize(len);
+        for(int i=0;i<len;i++)
+            rest.at(indices[i])=s[i];
+        return rest;
+    }
+};
+//0 ms	15 MB
+
+```

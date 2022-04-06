@@ -21,3 +21,15 @@ Output: 1
     -3 * 104 <= nums[i] <= 3 * 104
     Each element in the array appears twice except for one element which appears only once.
 
+# Solutions
+```cpp
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int result=0;
+        for(int i: nums) result^=i;
+        return result;
+    }
+};
+
+```
