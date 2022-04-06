@@ -27,7 +27,9 @@ Constraints:
     0 <= nums[i] <= 1000
 
 
-[Solution](https://www.tutorialspoint.com/valid-triangle-number-in-cplusplus)
+# [Solution](https://www.tutorialspoint.com/valid-triangle-number-in-cplusplus)
+
+in cpp
  ````cpp
  class Solution {
 public:
