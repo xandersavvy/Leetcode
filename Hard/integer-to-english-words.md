@@ -1,3 +1,38 @@
+# Integer to English Words
+
+### Convert a non-negative integer num to its English words representation.
+
+ 
+
+#### Example 1:
+
+    Input: num = 123
+    Output: "One Hundred Twenty Three"
+
+#### Example 2:
+
+    Input: num = 12345
+    Output: "Twelve Thousand Three Hundred Forty Five"
+
+#### Example 3:
+
+    Input: num = 1234567
+    Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
+
+#### Example 4:
+
+    Input: num = 1234567891
+    Output: "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"
+
+ 
+
+#### Constraints:
+
+    0 <= num <= 231 - 1
+
+# Solutions
+
+```cpp
 #define THOUSANDS "Thousand","Million","Billion"
 #define ONES "One","Two","Three","Four","Five","Six","Seven","Eight","Nine"
 #define TENS "Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"
@@ -31,8 +66,10 @@ public:
             if(i && str.size())  final_str= str+thsns[i]+" "+final_str;
             else    final_str=str+final_str;
             i++;
-}
+        }
 
-return final_str.substr(0,final_str.size()-1);
+        return final_str.substr(0,final_str.size()-1);
     }
 };
+
+```

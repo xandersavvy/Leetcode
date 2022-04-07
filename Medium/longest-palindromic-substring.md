@@ -1,3 +1,37 @@
+# Longest Palindromic Substring
+Given a string s, return the longest palindromic substring in s.
+
+#### Example 1:
+
+    Input: s = "babad"
+    Output: "bab"
+    Note: "aba" is also a valid answer.
+
+#### Example 2:
+
+    Input: s = "cbbd" 
+    Output: "bb"
+
+#### Example 3:
+
+    Input: s = "a"
+    Output: "a"
+
+#### Example 4:
+
+    Input: s = "ac"
+    Output: "a"
+
+ 
+
+#### Constraints:
+
+    1 <= s.length <= 1000
+    s consist of only digits and English letters (lower-case and/or upper-case),
+
+# Solutions
+
+```cpp
 class Solution {
 public:
     string longestPalindrome(string s)
@@ -23,3 +57,5 @@ public:
     return s.substr(start_idx, ++max_len); // we have start position (start_idx ) we have max_len but  max_len is less than 1 as array start form 0 so we're pre incrementing it .
     }
 };
+
+```
