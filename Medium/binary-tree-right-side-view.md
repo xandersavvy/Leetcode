@@ -26,7 +26,9 @@ Constraints:
 
 This one is in Java 
 
-Here is a explanation video [![java tree left side](https://i.ytimg.com/an_webp/thkuu_FWFD8/mqdefault_6s.webp?du=3000&sqp=CKuTr5YG&rs=AOn4CLCHzqnHuUwkU4wrpJsNxt-26bCNpg)](https://www.youtube.com/watch?v=thkuu_FWFD8)
+Here is a explanation video
+
+ [![java tree left side](https://i.ytimg.com/an_webp/thkuu_FWFD8/mqdefault_6s.webp?du=3000&sqp=CKuTr5YG&rs=AOn4CLCHzqnHuUwkU4wrpJsNxt-26bCNpg)](https://www.youtube.com/watch?v=thkuu_FWFD8)
 
 ```cpp
 /**
