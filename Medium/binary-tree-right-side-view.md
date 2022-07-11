@@ -26,7 +26,8 @@ Constraints:
 
 This one is in Java 
 
-Here is a explanation video ![java tree left side](https://youtu.be/thkuu_FWFD8)
+Here is a explanation video ![java tree left side](https://www.youtube.com/watch?v=thkuu_FWFD8)
+
 ```cpp
 /**
  * Definition for a binary tree node.
