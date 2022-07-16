@@ -31,7 +31,7 @@ Constraints:
 
 # Solutions
 This one is in Java
-![gif](https://leetcode.com/6d11a8d8-525e-4862-bf45-4fec9267b29a)
+[![Out of boundary paths solve](https://i.ytimg.com/vi/Ik8gTTUrtQk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARNjcW6-MLfxOXtwRMQmM_h9wiYQ)](https://www.youtube.com/watch?v=Ik8gTTUrtQk)
 
 ```java
 class Solution {
