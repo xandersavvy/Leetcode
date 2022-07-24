@@ -47,15 +47,15 @@ Solutions in Java
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
        List<Integer> list = new ArrayList<>();
-        return inorderTraversal(root, list);
+        return helper(root, list);
     }
     
-    private List<Integer> inorderTraversal(TreeNode root, List<Integer> list){
+    private List<Integer> helper(TreeNode root, List<Integer> list){
         if(root == null) return list;
         
-        inorderTraversal(root.left, list);
+        helper(root.left, list);
         list.add(root.val);
-        inorderTraversal(root.right, list);
+        helper(root.right, list);
         
         return list;
     }
